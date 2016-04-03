@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #7ad44a;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+
+#hero {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+#content {
+  background-color: #7ad44a;
+}
+
+.layer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  position: fixed;
+  z-index: -1;
+}
+
+#hero-mobile {
+  display: none;
+  background: url("/img/layer-all.png") no-repeat center /cover;
+  height: 320px;
+  width: 100%;
+}
+
+.first-section {
+  padding: 50px 0 20px 0;
+}
+
+.text-header {
+  font-size: 50px;
+  text-align: center;
+}
+
+h1 {
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #ddeedd;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#hero, .layer {
+  min-height: 800px;
+}
+
+.layer-bg {
+  background-image: url("/img/layer5-bg.png");
+}
+
+.layer-1 {
+  background-image: url("/img/layer4.png");
+  
+}
+
+.layer-2 {
+  background-image: url("/img/layer3.png");
+}
+
+.layer-3 {
+  background-image: url("/img/layer2.png");
+}
+
+.layer-4 {
+  background-image: url("/img/layer1.png");
+}
+
+.layer-overlay {
+  background-image: url("/img/ilu_overlay.png\a 		");
+}
+
+@media only screen and (max-width: 768px) {
+  #hero {
+    display: none;
+  }
+
+  #hero-mobile {
+    display: block;
+  }
+}
+
+
