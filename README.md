@@ -10,7 +10,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https
 $ git clone git@github.com:SriramBms/parallax-js.git # or clone your own fork
 $ cd parallax-js
 $ npm install
-$ npm start or heroku local
+$ npm start #or heroku local
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
@@ -26,7 +26,7 @@ or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-Code adapter from http://codepen.io/zabielski/full/MyoBaY
+Code adapted from http://codepen.io/zabielski/full/MyoBaY
 
 ## Documentation
 
