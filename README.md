@@ -1,6 +1,7 @@
 # Parallax test
 
 Heroku app for testing parallax movement 
+http://eo5.herokuapp.com
 
 ## Running Locally
 
